@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header ,footer{
+            background-color: rgb(21, 20, 22);
+            font-size: 35px;color: dodgerblue;
+            height: 80px;
+            display: flex; align-items: center;justify-content: center;
+            
+        }
+        a{margin-left: 80px;}
+    </style>
+</head>
+<body>
+    <header>
+        <center><a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'about' %}">About</a>
+            <a href="{% url 'contact' %}">Contact</a></center>
+        </header>
+        
+    {% block content %}
+    <h1>content page</h1>
+    {% endblock %}
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <footer>
+        <h1>This is a footer section..</h1>
+    </footer>
+    
+</body>
+</html>
